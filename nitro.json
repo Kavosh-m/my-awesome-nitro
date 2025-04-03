@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "myawesomemodule"
+  ],
+  "ios": {
+    "iosModuleName": "MyAwesomeModule"
+  },
+  "android": {
+    "androidNamespace": [
+      "myawesomemodule"
+    ],
+    "androidCxxLibName": "MyAwesomeModule"
+  },
+  "autolinking": {
+    "MyAwesomeModule": {
+      "kotlin": "HybridMyAwesomeModule"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
